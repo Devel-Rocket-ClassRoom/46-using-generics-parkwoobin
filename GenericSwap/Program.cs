@@ -87,7 +87,7 @@ class Utils
         int right = array.Length - 1;
         while (left < right)
         {
-            Swap(ref array[left], ref array[right]);
+            SwapInArray(array, left, right);
             left++;
             right--;
         }
